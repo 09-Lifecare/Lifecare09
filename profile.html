@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCare | Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Profile</h1>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </header>
+
+    <div class="profile-container">
+        <h2>Edit Profile</h2>
+        <form id="profileForm">
+            <input type="text" id="nickname" placeholder="Enter Nickname" required>
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <select id="role" required>
+                <option value="nursingStudent">Nursing Student</option>
+                <option value="student">Student</option>
+                <option value="Professional">Other Professional</option>
+            </select>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
