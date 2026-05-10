@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #004085;
+    color: white;
+}
+
+/* Login Form */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #5a6a73;
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #4CAF50;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Logout Button Styling */
+button {
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
